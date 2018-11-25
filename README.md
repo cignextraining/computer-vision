@@ -1,4 +1,5 @@
-# Image Processing and Computer Vision with OpenCV and Python
+# Image Processing and Computer Vision 
+### - with OpenCV and Python
 
 **Presented by:** 
  - Nehal Soni

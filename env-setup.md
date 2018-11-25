@@ -1,6 +1,8 @@
 # Environment Configuration
 
-**Prepared by: Nehal Soni and Vishal Rangras**
+**Presented by:** 
+ x Nehal Soni
+ x Vishal Rangras
 
 For *Image Processing and Computer Vision* track, python will be used as programming language along with various libraries and frameworks useful. The dependency management in Python can be best handled using Anaconda and it comes with many powerful features, Jupyter Notebook being one of those. We will extensively use Anaconda so instructions to setup the same are provided below:
 
@@ -21,12 +23,6 @@ We need to follow 3 simple steps to get our environment up and running:
 ## Installation
 
 **Download** the version of `Anaconda` that matches your system from https://www.continuum.io/downloads
-Following versions are available on the site:
-
-|        | Linux | Mac | Windows | 
-|--------|-------|-----|---------|
-| 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64]
-| 32-bit | [32-bit (bash installer)][lin32] |  | [32-bit (exe installer)][win32]
 
 ## Create Environment
 
@@ -51,13 +47,13 @@ conda list  # To list all the available packages in your environment. See if thi
 | Sr. No. | Command  | Usage |
 |---|---|---|
 | 1 |conda update conda|To update Anaconda|
-| 2 |conda create -n <<envname>> python=<<x.x>> anaconda|To create new environment with a given name and python version|
-| 3 |activate <<envname>> or source activate <<envname>>|To activate your environment|
+| 2 |conda create -n <<env_name>> python=<<x.x>> anaconda|To create new environment with a given name and python version|
+| 3 |activate <<env_name>> or source activate <<env_name>>|To activate your environment|
 | 4 |deactivate or source deactivate|To deactivate an environment|
-| 5 |conda install -n <<envname>> [package_name]|To install a package in given environment.|
-| 6 |conda install -c <<channel_name>> -n <<envname>> [package_name]|To install binaries from a given channel|
+| 5 |conda install -n <<env_name>> [package_name]|To install a package in given environment.|
+| 6 |conda install -c <<channel_name>> -n <<env_name>> [package_name]|To install binaries from a given channel|
 | 7 |conda env list|To list all the available environments in your system|
 | 8 |conda list|To see packages installed in your environment|
-| 9 |conda remove -n <<envname>> - all|To remove an environment|
+| 9 |conda remove -n <<env_name>> - all|To remove an environment|
 | 10 |conda clean -tp|To clean up tarball files after environment setup is completed|
 | 11 |jupyter notebook <<notebookname.ipynb>>|To run a jupyter notebook|
