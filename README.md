@@ -1,6 +1,8 @@
 # Image Processing and Computer Vision with OpenCV and Python
 
-**Presented by: Nehal Soni and Vishal Rangras**
+**Presented by:** 
+ - Nehal Soni
+ - Vishal Rangras
 
 ### Agenda Points
 
@@ -24,4 +26,4 @@
 
 #### Environment Setup
 
-> Please refer to the *[environment setup](https://github.com/cignextraining/computer-vision/env-setup.md)* document.
+> Please refer to the *[environment setup](https://github.com/cignextraining/computer-vision/blob/master/env-setup.md)* document.
