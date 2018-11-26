@@ -1,8 +1,8 @@
 # Environment Configuration
 
 **Presented by:** 
- x Nehal Soni
- x Vishal Rangras
+ - Nehal Soni
+ - Vishal Rangras
 
 For *Image Processing and Computer Vision* track, python will be used as programming language along with various libraries and frameworks useful. The dependency management in Python can be best handled using Anaconda and it comes with many powerful features, Jupyter Notebook being one of those. We will extensively use Anaconda so instructions to setup the same are provided below:
 
